@@ -1,13 +1,29 @@
-# Your GitHub Learning Lab Repository for Introducing GitHub
+# 🎞️ github-slideshow
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through. See a word you don't understand? We've included an emoji 📖 next to some key terms. Click on it to see its definition.
+My repository from the **GitHub Learning Lab — Introduction to GitHub** course.
 
-Oh! I haven't introduced myself...
+The course walks through the core GitHub workflow on a small [reveal.js](https://github.com/hakimel/reveal.js) slideshow site built with Jekyll:
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
+- working with issues
+- creating a branch
+- committing a file
+- opening and reviewing a pull request
+- merging into `main`
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+## Run the slideshow locally
 
-I'll meet you over there, can't wait to get started!
+```bash
+bundle install
+bundle exec jekyll serve
+# open http://localhost:4000
+```
 
-This course is using the :sparkles: open source project [reveal.js](https://github.com/hakimel/reveal.js/). In some cases we’ve made changes to the history so it would behave during class, so head to the original project repo to learn more about the cool people behind this project.
+Slides live in [`_posts/`](_posts/).
+
+## Credits
+
+Course material by GitHub Learning Lab. Slideshow engine: [reveal.js](https://github.com/hakimel/reveal.js) (MIT) — see [`LICENSE`](LICENSE).
+
+## Author
+
+**Muhammed Safar** — [@safar-byte](https://github.com/safar-byte)
